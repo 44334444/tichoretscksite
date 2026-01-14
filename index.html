@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тихорецк: Летопись города (1874-2025)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Тихорецк<span class="logo-accent">:</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Главная</a></li>
+                <li><a href="#history">История</a></li>
+                <li><a href="history.html">Подробная история</a></li>
+                <li><a href="about.html">О городе</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="#timeline">Хронология</a></li>
+                <li><a href="#project">О проекте</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Тихорецк</span>
+                    <span class="title-line accent">От прошлого к настоящему</span>
+                    <span class="title-subtitle">1874-2025</span>
+                </h1>
+                <p class="hero-description">
+                    Цифровая летопись города, рождённого у железной дороги. Исследуйте историю, 
+                    которая началась со станции и продолжается в XXI веке.
+                </p>
+                <a href="#history" class="cta-button">
+                    Начать путешествие во времени
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Листайте вниз</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- История города -->
+    <section id="history" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">История города</h2>
+                <p class="section-subtitle">От станции к городу: путь длиною в столетие</p>
+            </div>
+            
+            <div class="history-intro" style="text-align: center; margin-bottom: 40px;">
+                <p style="font-size: 1.1rem; margin-bottom: 20px; color: #c0c0d0;">
+                    Исследуйте подробную историю Тихорецка с древних времён до наших дней
+                </p>
+                <a href="history.html" style="display: inline-block; padding: 15px 35px; background: linear-gradient(135deg, #7cb9e8 0%, #5a9fd4 100%); color: #0a0a0f; border-radius: 10px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; font-size: 1.05rem; border: none; cursor: pointer;">
+                    <i class="fas fa-book-open"></i> Полная история Тихорецка (от 1874 года)
+                </a>
+            </div>
+
+            <div class="history-content">
+                <div class="history-card">
+                    <div class="history-year">1895</div>
+                    <div class="history-text">
+                        <h3>Рождение станции</h3>
+                        <p>Появление станции Тихорецкая на Владикавказской железной дороге. Крошечный посёлок железнодорожников становится точкой роста.</p>
+                    </div>
+                </div>
+                
+                <div class="history-card">
+                    <div class="history-year">1926</div>
+                    <div class="history-text">
+                        <h3>Статус посёлка</h3>
+                        <p>Тихорецкий получает статус рабочего посёлка. Начинается активное развитие промышленности и инфраструктуры.</p>
+                    </div>
+                </div>
+                
+                <div class="history-card highlight">
+                    <div class="history-year">1993</div>
+                    <div class="history-text">
+                        <h3>Рождение города</h3>
+                        <p>Исторический момент: рабочий посёлок Тихорецкий официально получает статус <strong>города районного подчинения</strong> и имя <strong>Тихорецк</strong>.</p>
+                    </div>
+                </div>
+                
+                <div class="history-card">
+                    <div class="history-year">2000-е</div>
+                    <div class="history-text">
+                        <h3>Новое тысячелетие</h3>
+                        <p>Город переживает сложный экономический переход, но сохраняет свою промышленную и транспортную значимость.</p>
+                    </div>
+                </div>
+                
+                <div class="history-card">
+                    <div class="history-year">2010-е</div>
+                    <div class="history-text">
+                        <h3>Модернизация</h3>
+                        <p>Активное благоустройство, развитие инфраструктуры, появление новых общественных пространств.</p>
+                    </div>
+                </div>
+                
+                <div class="history-card">
+                    <div class="history-year">2020-2025</div>
+                    <div class="history-text">
+                        <h3>Цифровая эпоха</h3>
+                        <p>Цифровизация услуг, рост интереса к локальной истории, развитие туристического потенциала.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Хронологическая лента -->
+    <section id="timeline" class="section timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Хронология развития</h2>
+                <p class="section-subtitle">Ключевые события от 1874 года до наших дней</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">1874</div>
+                    <div class="timeline-content">
+                        <h3>Рождение станции Тихорецкая <span class="expand-icon">+</span></h3>
+                        <p>17 мая 1874 года была открыта железнодорожная станция Тихорецкая - началось всё.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>Открытие железнодорожной станции Тихорецкая стало началом истории города. Станция была построена на пересечении важных железнодорожных магистралей, связывая Ростов и Махачкалу. Это стратегическое расположение определило развитие поселения.</p>
+                            <p><strong>Значение:</strong> Началось развитие пристанционного поселения, притока населения и развития торговли.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">1905</div>
+                    <div class="timeline-content">
+                        <h3>Революционные события <span class="expand-icon">+</span></h3>
+                        <p>Восстание рабочих железнодорожной станции. Политическое пробуждение населения.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В декабре 1905 года произошло восстание рабочих железнодорожной станции Тихорецкая в поддержку первой русской революции. Это событие свидетельствовало о политическом пробуждении населения и показало важность города в общероссийских процессах. Город был центром трудовых конфликтов.</p>
+                            <p><strong>Значение:</strong> Город играл значительную роль в революционном движении России.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">1924-1926</div>
+                    <div class="timeline-content">
+                        <h3>Становление административного центра <span class="expand-icon">+</span></h3>
+                        <p>Преобразование в город. Получение статуса районного центра.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>2 июня 1924 года станция Тихорецкая стала районным центром Тихорецкого района. 1 марта 1926 года хутор Тихорецкий и станция Тихорецкая были официально преобразованы в город Тихорецк. Это был переломный момент, когда поселение получило официальный статус города.</p>
+                            <p><strong>Значение:</strong> Официальное признание статуса города открыло новые возможности для развития.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">1942-1943</div>
+                    <div class="timeline-content">
+                        <h3>Великая Отечественная война <span class="expand-icon">+</span></h3>
+                        <p>Оккупация и освобождение. Значительные разрушения инфраструктуры.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>5 августа 1942 года город был захвачен немецкими и румынскими войсками. После 178 дней оккупации Красная Армия освободила город 30 января 1943 года. Война нанесла огромный ущерб: были разрушены промышленные предприятия, железнодорожная станция и жилые дома. Город понёс значительные потери.</p>
+                            <p><strong>Значение:</strong> Тихорецк героически противостоял оккупантам и был восстановлен в послевоенный период.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2007</div>
+                    <div class="timeline-content">
+                        <h3>Статус городского поселения <span class="expand-icon">+</span></h3>
+                        <p>В декабре 2007 года город получил статус городского поселения. Новый этап развития.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В декабре 2007 года город Тихорецк получил новый статус - городского поселения. Это событие открыло возможности для масштабной модернизации инфраструктуры, развития промышленности и расширения сервисных учреждений. Началась активная реконструкция центральных улиц и площадей.</p>
+                            <p><strong>Значение:</strong> Статус городского поселения позволил городу динамично развиваться в XXI веке.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">1998</div>
+                    <div class="timeline-content">
+                        <h3>Развитие инфраструктуры <span class="expand-icon">+</span></h3>
+                        <p>Реконструкция железнодорожного вокзала, модернизация основных транспортных артерий города.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В конце 1990-х годов город получил значительные инвестиции в развитие инфраструктуры. Были проведены работы по реконструкции знаменитого железнодорожного вокзала, здание которого построено ещё в 1886 году.</p>
+                            <p><strong>Ключевые улучшения:</strong> модернизация транспортных сетей, ремонт дорог, обновление коммунальных систем.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2005</div>
+                    <div class="timeline-content">
+                        <h3>Экономическая стабилизация <span class="expand-icon">+</span></h3>
+                        <p>Создание новых промышленных предприятий, восстановление экономики после переходного периода.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>Начало 2000-х годов принесло экономическое оздоровление. В городе функционировали крупные промышленные предприятия, включая машиностроительный завод имени В.В. Воровского, сыркомбинат, мясокомбинат и хлебокомбинат.</p>
+                            <p><strong>Основные отрасли:</strong> пищевая промышленность, машиностроение, железнодорожный транспорт.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2012</div>
+                    <div class="timeline-content">
+                        <h3>Культурный ренессанс <span class="expand-icon">+</span></h3>
+                        <p>Реконструкция городского парка, открытие новых памятников, активизация культурной жизни.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В городе активно развивалась культурная жизнь. На момент 2010-х годов в Тихорецке функционировало несколько культурных учреждений: городской дворец культуры, историко-краеведческий музей, детская школа искусств.</p>
+                            <p><strong>Достопримечательности:</strong> Свято-Успенский храм (построен в 1910 году), здание общественного собрания (1902), Храм Ксении Петербуржской.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>Программа благоустройства <span class="expand-icon">+</span></h3>
+                        <p>Масштабное обновление общественных пространств, набережной, создание комфортной городской среды.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>Центральный городской парк был полностью реконструирован в рамках государственной программы "Формирование комфортной городской среды". Улучшена инфраструктура для отдыха и досуга жителей.</p>
+                            <p><strong>Инфраструктура:</strong> ледовый дворец "Тихорецк", стадион "Труд", спортивный комплекс с плавательным бассейном.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>Цифровизация и адаптация <span class="expand-icon">+</span></h3>
+                        <p>Экстренный переход на цифровые технологии в условиях пандемии COVID-19. Развитие удалённых сервисов.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>2020 год стал испытанием для всей России, включая Тихорецк. Город успешно адаптировался к новым условиям, внедрив цифровые технологии в управление, образование, здравоохранение и бизнес. Началась активная цифровизация документооборота и электронного управления.</p>
+                            <p><strong>Инновации:</strong> система электронных услуг, видеоконференции, онлайн-сервисы администрации города.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2021-2022</div>
+                    <div class="timeline-content">
+                        <h3>Восстановление и инвестиции <span class="expand-icon">+</span></h3>
+                        <p>Постпандемийное восстановление экономики, привлечение новых инвестиций в развитие города.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>По мере выхода из пандемии Тихорецк активно восстанавливал экономику. Были привлечены новые инвестиции в развитие промышленных предприятий, логистических центров и бизнес-инкубаторов. Выросли инвестиции в малый и средний бизнес.</p>
+                            <p><strong>Развитие:</strong> открытие новых производств, расширение сервисных центров, развитие предпринимательства.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>150 лет Тихорецку <span class="expand-icon">+</span></h3>
+                        <p>Масштабное празднование 150-летия со дня основания станции. Международное внимание к городу.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В 2023 году город торжественно отметил 150-летие со дня открытия железнодорожной станции Тихорецкая (1873). Были организованы масштабные культурные события, выставки, конференции. Город получил признание как значимый культурный и исторический центр.</p>
+                            <p><strong>События:</strong> фестивали, выставки истории, встречи с ветеранами, культурные программы.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2024-2025</div>
+                    <div class="timeline-content">
+                        <h3>Инновационное развитие <span class="expand-icon">+</span></h3>
+                        <p>Создание центров инноваций, IT-парков, развитие стартап-экосистемы и культурного туризма.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>2024-2025 годы озаменовались началом реализации проекта "Тихорецк - город будущего". Были созданы инновационные центры, развивается IT-экосистема, привлекаются молодые таланты и стартапы. Параллельно развивается культурный туризм, активно популяризируется историческое наследие города.</p>
+                            <p><strong>Проекты:</strong> TihorHub (технологический парк), музейные квартиры, арт-пространства, туристические маршруты по исторической Тихорецку.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-expand>
+                    <div class="timeline-date">2026</div>
+                    <div class="timeline-content">
+                        <h3>Стратегия долгосрочного развития <span class="expand-icon">+</span></h3>
+                        <p>Утверждение плана развития до 2035 года, фокус на устойчивое развитие и качество жизни.</p>
+                        <div class="timeline-details" hidden>
+                            <h4>Детали события</h4>
+                            <p>В 2026 году администрация города утвердила Стратегию социально-экономического развития Тихорецка на период до 2035 года. План включает развитие "зелёной" экономики, расширение образовательных учреждений, создание рабочих мест, улучшение экологии и качества жизни жителей.</p>
+                            <p><strong>Приоритеты:</strong> экологический туризм, устойчивое развитие, образование, здравоохранение, благоустройство.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Галерея Тихорецка</h2>
+                <p class="section-subtitle">Город в фотографиях разных лет</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/tihoretsk-railway-station.jpg" alt="Железнодорожный вокзал Тихорецка" class="gallery-img">
+                    <div class="gallery-caption">Железнодорожный вокзал — символ города (1886)</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/tihoretsk-sovetskaya-street.jpg" alt="Улица Советская" class="gallery-img">
+                    <div class="gallery-caption">Улица Советская — главная артерия города</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/tihoretsk-central-park.jpg" alt="Городской парк" class="gallery-img">
+                    <div class="gallery-caption">Городской парк культуры и отдыха</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/tihoretsk-church.jpg" alt="Свято-Успенский храм" class="gallery-img">
+                    <div class="gallery-caption">Свято-Успенский храм (1910)</div>
+                </div>
+            </div>
+            
+            <div class="gallery-controls">
+                <button class="gallery-btn" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i> Назад
+                </button>
+                <div class="gallery-counter">
+                    <span id="currentSlide">1</span> / <span id="totalSlides">4</span>
+                </div>
+                <button class="gallery-btn" id="nextBtn">
+                    Вперед <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="gallery.html" class="cta-button" style="display: inline-block; padding: 12px 30px;">
+                    <i class="fas fa-images"></i> Смотреть полную галерею (16+ фото)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Факты -->
+    <section id="facts" class="section facts-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Интересные факты</h2>
+                <p class="section-subtitle">Что делает Тихорецк уникальным</p>
+            </div>
+            
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-train"></i>
+                    </div>
+                    <h3 class="fact-title">Железнодорожный узел</h3>
+                    <p class="fact-text">Тихорецк — крупный железнодорожный узел Северо-Кавказской железной дороги, связывающий регионы России.</p>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="fact-title">Промышленный центр</h3>
+                    <p class="fact-text">В городе работают предприятия машиностроения, пищевой и перерабатывающей промышленности.</p>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-monument"></i>
+                    </div>
+                    <h3 class="fact-title">Историческое наследие</h3>
+                    <p class="fact-text">Сохранились здания дореволюционной постройки, памятники истории и культуры.</p>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="fact-title">Население</h3>
+                    <p class="fact-text">На 2023 год население Тихорецка составляет около 60 тысяч человек.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О проекте -->
+    <section id="project" class="section project-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">О проекте</h2>
+                <p class="section-subtitle">Цифровая летопись города Тихорецк</p>
+            </div>
+            
+            <div class="project-content">
+                <div class="project-text">
+                    <p>Этот сайт создан в рамках индивидуального проекта "Тихорецк от прошлого к настоящему" и представляет собой цифровую летопись города с момента получения им статуса города до наших дней.</p>
+                    
+                    <p><strong>Цель проекта:</strong> сохранить историческую память, сделать информацию о развитии Тихорецка доступной и интересной для молодого поколения, создать современный цифровой ресурс о городе.</p>
+                    
+                    <p><strong>Технологии:</strong> сайт разработан с использованием HTML5, CSS3, TypeScript и современных веб-технологий. Дизайн выполнен в тёмном стиле для комфортного чтения.</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                </div>
+                
+                <div class="project-info">
+                    <h3>Автор проекта</h3>
+                    <p>Садовой Александр Александрович</p>
+                    <p>Ученик 9-б класса</p>
+                    <p>МБОУ СОШ №3 г. Тихорецка</p>
+                    
+                    <h3>Руководитель</h3>
+                    <p>Копьёв Игорь Анатольевич</p>
+                    <p>Учитель информатики</p>
+                    
+                    <div class="project-date">
+                        <i class="far fa-calendar"></i>
+                        <span>2025-2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Тихорецк: Летопись города</h3>
+                    <p>Индивидуальный проект по информатике</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Разделы сайта</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#history">История</a></li>
+                        <li><a href="#timeline">Хронология</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                    </ul>
+                </div>
+                
+            
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025-2026 Индивидуальный проект "Тихорецк от прошлого к настоящему". Все права защищены.</p>
+                <p class="footer-note">Сайт создан в образовательных целях</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="adm/admin.js"></script>
+</body>
+</html>
